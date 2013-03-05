@@ -1,0 +1,177 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Tutorial for Candy Crush!</title>
+<link rel="stylesheet" type="text/css" href="css/myStyleor.css"/>
+  <link rel="stylesheet" type="text/css" href="jquery.ad-gallery.css">
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+  <script type="text/javascript" src="jquery.ad-gallery.js"></script>
+  <script type="text/javascript">
+  $(function() {
+    $('img.image1').data('ad-desc', 'Whoa! This description is set through elm.data("ad-desc") instead of using the longdesc attribute.<br>And it contains <strong>H</strong>ow <strong>T</strong>o <strong>M</strong>eet <strong>L</strong>adies... <em>What?</em> That aint what HTML stands for? Man...');
+    $('img.image1').data('ad-title', 'Title through $.data');
+    $('img.image4').data('ad-desc', 'This image is wider than the wrapper, so it has been scaled down');
+    $('img.image5').data('ad-desc', 'This image is higher than the wrapper, so it has been scaled down');
+    var galleries = $('.ad-gallery').adGallery();
+    $('#switch-effect').change(
+      function() {
+        galleries[0].settings.effect = $(this).val();
+        return false;
+      }
+    );
+    $('#toggle-slideshow').click(
+      function() {
+        galleries[0].slideshow.toggle();
+        return false;
+      }
+    );
+    $('#toggle-description').click(
+      function() {
+        if(!galleries[0].settings.description_wrapper) {
+          galleries[0].settings.description_wrapper = $('#descriptions');
+        } else {
+          galleries[0].settings.description_wrapper = false;
+        }
+        return false;
+      }
+    );
+  });
+  </script>
+
+<style type="text/css">
+ .ad-controls {
+	display:none;
+	visibility:hidden;
+}
+
+.ad-gallery .ad-image-wrapper .ad-prev:hover{background-position:bottom right;}
+
+</style>
+
+
+  <title>Tutorial for Candy Crush! </title>
+</head>
+
+<body>
+
+
+
+
+<div id="frame">
+
+<div id="container">
+ <h1>Tutorial for Candy Crush!</h1>   
+    <div id="gallery" class="ad-gallery">
+      <div class="ad-image-wrapper">
+      </div>
+      <div class="ad-controls">
+      </div>
+      <div class="ad-nav">
+        <div class="ad-thumbs">
+          <ul class="ad-thumb-list">
+            <li>
+              <a href="images/c.001.jpg">
+                <img src="images/thumbs/c.001.jpg" class="image0">
+              </a>
+            </li>
+            <li>
+              <a href="images/c.002.jpg">
+                <img src="images/thumbs/c.002.jpg"  class="image0">
+              </a>
+            </li>
+            <li>
+              <a href="images/c.003.jpg">
+                <img src="images/thumbs/c.003.jpg" class="image2">
+              </a>
+            </li>
+            <li>
+              <a href="images/c.004.jpg">
+                <img src="images/thumbs/c.004.jpg"  class="image3">
+              </a>
+            </li>
+            <li>
+              <a href="images/c.005.jpg">
+                <img src="images/thumbs/c.005.jpg" class="image0">
+              </a>
+            </li>
+            <li>
+              <a href="images/c.006.jpg">
+                <img src="images/thumbs/c.006.jpg" class="image0">
+              </a>
+            </li>
+            <li>
+              <a href="images/c.007.jpg">
+                <img src="images/thumbs/c.007.jpg" class="image6">
+              </a>
+            </li>
+            <li>
+              <a href="images/c.008.jpg">
+                <img src="images/thumbs/c.008.jpg"class="image7">
+              </a>
+            </li>
+            <li>
+              <a href="images/c.009.jpg">
+                <img src="images/thumbs/c.009.jpg"class="image8">
+              </a>
+            </li>
+            <li>
+              <a href="images/c.010.jpg">
+                <img src="images/thumbs/c.010.jpg" class="image9">
+              </a>
+            </li>
+            <li>
+              <a href="images/c.011.jpg">
+                <img src="images/thumbs/c.011.jpg" class="image10">
+              </a>
+            </li>
+            <li>
+              <a href="images/c.012.jpg">
+                <img src="images/thumbs/c.012.jpg"class="image11">
+              </a>
+            </li>
+            <li>
+              <a href="images/c.013.jpg">
+                <img src="images/thumbs/c.013.jpg" class="image12">
+              </a>
+            </li>
+            <li>
+              <a href="images/c.014.jpg">
+                <img src="images/thumbs/c.014.jpg" class="image13">
+              </a>
+            </li>
+            <li>
+              <a href="images/c.015.jpg">
+                <img src="images/thumbs/c.015.jpg" class="image12">
+              </a>
+            </li>
+<li>
+              <a href="images/c.016.jpg">
+                <img src="images/thumbs/c.016.jpg" class="image12">
+              </a>
+            </li>
+<li>
+              <a href="images/c.017.jpg">
+                <img src="images/thumbs/c.017.jpg" class="image12">
+              </a>
+            </li>
+<li>
+              <a href="images/c.018.jpg">
+                <img src="images/thumbs/c.018.jpg" class="image12">
+              </a>
+            </li>
+
+
+            
+            
+            
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  
+</div>
+</body>
+</html>

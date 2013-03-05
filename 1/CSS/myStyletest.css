@@ -1,0 +1,198 @@
+body{
+	background-image: url(harley4.jpg);
+	font-family:Arial, Helvetica, sans-serif;
+
+}
+
+#share{float:right;
+	top:22px;
+	right:1px;
+	position:absolute;}
+
+
+
+#topgrey{
+	color:#FFF;
+	width:1000px;
+	height:150px;
+	margin-right:auto;
+	margin-left:auto;
+	background-color:#999;
+	text-shadow:1px 1px 7px #505050 ;
+	-moz-box-shadow: 1px 1px 4px #A8A8A8 ; /* Firefox */
+	-webkit-box-shadow: 1px 1px 4px #A8A8A8 ; /* Safari and Chrome */
+	box-shadow: 1px 1px 4px #A8A8A8 ;
+	-moz-border-radius:5px; /* Firefox */
+	border-radius:5px;
+}
+
+h1{
+	
+	color:#FFF;
+	padding-top:25px;
+	text-align:center;
+	text-shadow:1px 1px 5px #505050 ;
+}
+		
+
+h2{
+	
+	color:#999;
+	font-weight:bold;
+	margin-left:35px;
+	float: left;
+	margin-top:20px;
+	padding-top:15px;
+	margin-bottom:0px;
+	
+	
+	
+		}
+
+		
+		
+	
+menu {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position:inherit;
+	text-align:center;
+	color:#FFFFFF;
+
+	
+}
+
+
+ul {
+	   clear:right;
+   float:right;
+   list-style:none;
+   margin:0;
+   padding:0;
+   position:relative;
+   right:50%;
+  
+
+}
+
+ul a{
+	
+display:block;
+width:150px;
+font-weight:bold;
+color:#FFFFFF;
+
+padding:15px;
+text-decoration:none;
+
+}
+  li a:hover{ color: #B6EFD7;
+}
+
+.selected{color: #B0E6FF;}
+
+li {
+   position:relative;
+   left:50%;
+   float:left;
+   display:block;
+   width:150px;
+   text-align:center;
+   display:block;
+
+}
+
+
+
+#frame{
+	color: #333;
+	width:1000px;
+	height:300px;
+	float:inherit;
+	margin-right:auto;
+	margin-left:auto;
+	margin-top:9px;
+	background-color: #FFF;
+	text-align:right;
+	padding-top:10px;
+	
+	border: 1px solid #CCC;
+	-moz-box-shadow: 1px 1px 4px #A8A8A8 ; /* Firefox */
+	-webkit-box-shadow: 1px 1px 4px #A8A8A8 ; /* Safari and Chrome */
+	box-shadow: 1px 1px 4px #A8A8A8 ;
+	-moz-border-radius:5px; /* Firefox */
+	border-radius:5px;
+
+
+
+}
+
+.about{
+	margin-top:5px;
+	margin-right:35px;
+	display:block;
+	width:500px;
+	float:right;	
+	direction: rtl;
+	line-height:150%;
+	text-align:justify;
+}
+
+p 
+
+{
+	margin-top:35px;
+	margin-left: -78px;
+	float:left;
+	line-height:150%;
+}
+
+#picss{
+	margin-top:20px;
+	margin-left:0px;
+	float:center;
+	border: 1px solid #CCC;
+
+	
+}
+
+#thing{
+	text-align: center;
+	padding-top: 30px;
+}
+
+.img{ 
+	margin-top:10px;
+	margin-left:60px;
+
+	border: 1px solid #CCC;
+	position:absolute;}
+
+.tipul{margin-top:10px;
+	margin-left:100px;
+
+	border: 1px solid #CCC;
+	position:absolute;}
+	
+.mar{margin-top:10px;
+	margin-left:60px;
+
+	border: 1px solid #CCC;
+	position:absolute;}
+	
+	
+.sinit{margin-top:10px;
+	margin-left:80px;
+
+	border: 1px solid #CCC;
+	position:absolute;}
+	
+.contactframe{ height:200px;
+	width:200px;
+	background-color:#CCC;}
+	.contact{margin-top:10px;
+	margin-left:60px;
+
+	border: 1px solid #CCC;
+	position:absolute;}
