@@ -1,5 +1,8 @@
 <?php
 
+header('Content-type: application/json');
+	
+
 
 $OResume = array(
 					"Professional Experience" => array('2012 - Designer at Matnas Interactive, Tel-Aviv.', 
@@ -27,32 +30,10 @@ programming', '3D computerized modeling and rendering', 'video editing', 'sound 
 						
 					'Additional Information' => array ('Growing up with an artist for a mother and an engineer for a father, becoming a designer was probably inevitable.')	
 						
+							);
 							
-													
-				
-				);
-				
-/*
-print_r($OResume);?>
-
-</br>
-</br>
-</br>
-
-<?php
-*/
-echo json_encode($OResume);
-
+							
+	echo json_encode($OResume);
+	
 ?>
-
-</br>
-</br>
-</br>
 				
-copy this and go to <a href="http://jsonlint.com/" target="_blank">http://jsonlint.com/ </a>
-
-
-</br>
-</br>
-</br>
-
