@@ -1,0 +1,91 @@
+<html>
+	<head>
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+	<link rel="stylesheet" href="style.css" type="text/css" media="screen" title="no title" charset="utf-8" />
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+		<style>	
+		
+		</style>
+		
+</head>
+
+<body>
+	
+
+
+<article>
+	<div class="dtopbar">
+		<img src="img/top.watchlist.png" class="top">
+		<div class="button">
+			<div id="openmenu"></div>
+		</div><!-- button -->
+	</div> <!-- dtopbar -->
+<div class="menuuu">
+			<div class="buttonc">
+				<div id="closemenu"></div>
+			</div><!-- button -->
+	<div class="menu">
+		<ul class="press90">
+			<a href="index.html"><li class="press90"></li></a>
+			<a href="watchlist.html"><li class="press90"></li></a>
+			<a href="add.html"><li class="press90"></li></a>
+			<a href="friends.html"><li class="press90"></li></a>
+<!-- 			<a href="settings.html"><li class="press90"></li></a> -->
+		</ul>
+	</div> <!-- menu -->
+
+	<div class="homemenu">
+		<div class="menudown">
+			<img src="img/home.menu.png" class="homemenu">
+		</div><!-- menudown -->
+	</div>	<!-- homemenu -->	
+</div> <!--class menuuu-->
+
+		<section>
+				
+			<div class="still">
+				<div id="btv"><a href="watchlist.html"><div class="button160"></div></a></div>
+				<img src="img/list.movietv.png" class="still">
+			</div>
+			
+			<div class="scroll"><img src="img/m1.png" class="scroll50"></div>
+			<div class="scroll"><img src="img/m2.png" class="scroll50"></div>
+			<div class="scroll"><img src="img/m3.png" class="scroll50"></div>
+			<div class="scroll"><img src="img/m4.png" class="scroll50"></div>
+<!-- 			<div class="scroll"><img src="img/m5.png" class="scroll50"></div> -->
+			<div class="scroll"><img src="img/m6.png" class="scroll50"></div>
+			<div class="scroll"><img src="img/m7.png" class="scroll50"></div>
+			<div class="still"><img src="img/m8.png" class="still"></div>
+			<div class="scroll"><img src="img/m9.png" class="scroll50"></div>
+			<div class="scroll"><img src="img/m10.png" class="scroll50"></div>
+			<div class="scroll"><img src="img/m11.png" class="scroll50"></div>
+	
+			
+		</section>
+</article>
+<script type="text/javascript" src="jquery-1.9.1.min.js"></script>
+<script>
+$(function() {
+  
+       $('.menuuu').hide();
+
+        
+	$('a').click(function() {
+	    document.location = $(this).attr('href');
+	    return false;
+	  });
+	     
+	$('.button').click(function(){
+	  	  $('.menuuu').show();
+	});	   
+
+	$('.buttonc').click(function(){
+	  	  $('.menuuu').hide();
+	});	   
+
+});
+        
+</script>	
+	</body>
+</html>

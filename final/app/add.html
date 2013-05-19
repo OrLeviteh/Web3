@@ -1,0 +1,92 @@
+<html>
+	<head>
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+
+	<link rel="stylesheet" href="style.css" type="text/css" media="screen" title="no title" charset="utf-8" />
+		<style>	
+		
+		</style>
+</head>
+	<body>
+<article>
+	<img src="img/cam.png" class="cam">
+	
+	<div class="dtopbar">
+		<img src="img/top.add.png" class="top">
+		<div class="button">
+			<div id="openmenu"></div>
+		</div><!-- button -->
+	</div> <!-- dtopbar -->
+	
+
+	
+<div class="menuuu">
+		<div class="buttonc">
+				<div id="closemenu"></div>
+			</div><!-- button -->
+
+	<div class="menu">
+		<ul class="press90">
+			<a href="index.html"><li class="press90"></li></a>
+			<a href="watchlist.html"><li class="press90"></li></a>
+			<a href="add.html"><li class="press90"></li></a>
+			<a href="friends.html"><li class="press90"></li></a>
+<!-- 			<a href="settings.html"><li class="press90"></li></a> -->
+		</ul>
+	</div> <!-- menu -->
+
+	<div class="homemenu">
+		<div class="menudown">
+			<img src="img/home.menu.png" class="homemenu">
+		</div><!-- menudown -->
+	</div>	<!-- homemenu -->	
+</div> <!--class menuuu-->
+	
+		<section>
+				
+			<div class="still">
+		<div class="buttonsqr">
+			<div id="opencam"></div>
+		</div>
+				<img src="img/add.png" class="still">
+				
+			
+		<div class="scroll"><img src="img/home.row3.png" class="scroll146"></div>			
+	</section>
+</article>
+<script type="text/javascript" src="jquery-1.9.1.min.js"></script>
+<script>
+$(function() {
+  
+       $('.menuuu').hide();
+       $('.cam').hide();
+
+        
+	$('a').click(function() {
+	    document.location = $(this).attr('href');
+	    return false;
+	  });
+	     
+	$('.button').click(function(){
+	  	  $('.menuuu').show();
+	});	 
+	
+	$('.buttonc').click(function(){
+	  	  $('.menuuu').hide();
+	});	   
+  
+  $('.buttonsqr').click(function(){
+	  	  $('.cam').show();
+	});
+  
+  	$('.cam').click(function(){
+	  	  $('.cam').hide();
+	});	 
+
+});
+        
+</script>	
+	</body>
+</html>

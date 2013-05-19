@@ -1,0 +1,184 @@
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 700px) {
+body{
+padding: 0;
+margin: 0;
+	background-color: pink;
+}
+
+} /*320- 700*/
+
+
+@media only screen 
+and (max-device-width : 320px) 
+and (orientation : portrait) { 
+
+/* STYLES GO HERE */
+html{ overflow:auto;}
+
+body{background-color: white;
+padding: 0;
+margin: 0;
+width:320px;
+height: 1000px;
+overflow-x: hidden;
+display: block;
+}
+
+.dtopbar{
+width: 320px;	}
+
+img.topbar {
+width:  320px;	
+position: absolute;
+z-index: -5;
+top: 0;}
+
+/* img {width: 100%; height: auto;} */
+
+.drow1{	overflow-x: auto;white-space: nowrap;}
+
+img.row1 {height: 143px;
+z-index: 1;
+display:inline;
+top: 0;}
+
+.drow2 .drow3{
+	width: 640px;
+}
+
+img.row2 {
+height: 83px;
+z-index: 1;
+top: 0;}
+
+
+
+
+img.dstrip {
+height: 50px;	
+
+z-index: 1;
+margin-top: 118px;
+}
+
+ul li {
+color:white;
+background-color:rgba(107,107,107,0.3);
+list-style: none;
+width: 100%;
+margin: 0;
+padding: 0;
+text-indent: 0;
+border: 1px solid white;
+height: 50px;
+
+}
+
+ul.list{
+	
+}
+
+
+
+}/* only screen */
+
+
+/*
+
+
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 720px) 
+and (orientation : portrait) { 
+
+
+/* STYLES GO HERE 
+body{background-color: #90eb90;
+padding: 0;
+margin: 0;
+width: 320px;
+/* background-color: gray; 
+height: 1000px;
+}
+
+img.topbar {
+height: 105px;	
+position: absolute;
+z-index: -5;
+top: 0;
+}
+
+img.row1 {
+height: 286px;	
+position: relative;
+
+z-index: 1;
+top: 0;
+}
+
+img.dstrip {
+height: 50px;	
+
+z-index: 1;
+margin-top: 118px;
+}
+
+ul li {
+color:white;
+background-color:rgba(107,107,107,0.3);
+list-style: none;
+width: 100%;
+margin: 0;
+padding: 0;
+text-indent: 0;
+border: 1px solid white;
+height: 50px;
+
+}
+
+ul.list{
+	
+
+}
+
+
+
+}/* only screen */
+
+
+
+
+@media (min-width: 700px)
+{   
+body{background-color: red;
+	padding: 0;
+	margin: 0;
+}
+
+img {
+width: 320px;	
+position: absolute;
+z-index: -5;
+top: 0;
+}
+
+ul li {
+color:white;
+background-color:rgba(107,107,107,0.3);
+list-style: none;
+width: 320px;
+margin: 0;
+padding: 0;
+text-indent: 0;
+border: 1px solid white;
+height: 50px;
+
+}
+
+
+
+  }  /* media min 600px */

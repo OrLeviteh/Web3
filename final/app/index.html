@@ -1,0 +1,91 @@
+<html>
+	<head>
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+	<link rel="stylesheet" href="style.css" type="text/css" media="screen" title="no title" charset="utf-8" />
+<link rel="apple-touch-icon" sizes="114x114" href="logoicon.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="logoicon.png" />
+		<style>
+		
+		</style>		
+	</head>
+	<body>
+<article>
+		<div class="dtopbar">
+		<img src="img/top.watchthis.png" class="top">
+		<div class="button">
+			<div id="openmenu"></div>
+		</div><!-- button -->
+	</div> <!-- dtopbar -->
+	<div class="menuuu">
+			<div class="buttonc">
+				<div id="closemenu"></div>
+			</div><!-- button -->
+		<div class="menu">
+			<ul class="press90">
+				<a href="index.html"><li class="press90"></li></a>
+				<a href="watchlist.html"><li class="press90"></li></a>
+				<a href="add.html"><li class="press90"></li></a>
+				<a href="friends.html"><li class="press90"></li></a>
+				<!-- <a href="settings.html"><li class="press90"></li></a> -->
+			</ul>
+		</div> <!-- menu -->
+		
+		<div class="homemenu">
+			<div class="menudown">
+				<img src="img/home.menu.png" class="homemenu">
+			</div><!-- menudown -->
+		</div>	<!-- homemenu -->	
+	</div> <!--class menuuu-->
+		<section>
+			<div class="scroll">
+				<img src="img/home.row1.png" class="scroll143">
+			</div>
+			<div class="still">
+				<img src="img/home.row2.txt.png" class="still">
+			</div>
+			<div class="scroll">
+				<img src="img/home.row2.png" class="scroll146">
+			</div>
+			<div class="still">
+				<img src="img/home.row3.txt.png" class="still">
+			</div>
+			<div class="scroll">
+				<img src="img/home.row3.png" class="scroll146">
+			</div>
+		</section>
+</article>
+
+
+<div class="sorry">
+
+<h2><img src="../img/logo.gif"><br>Sorry, Currently viewable on only a few devices.<br><a href="../">Back</a></h2>
+</div>
+
+<script type="text/javascript" src="jquery-1.9.1.min.js"></script>
+<script>
+$(function() {
+  
+       $('.menuuu').hide();
+
+        
+	$('a').click(function() {
+	    document.location = $(this).attr('href');
+	    return false;
+	  });
+	     
+	$('.button').click(function(){
+	  	  $('.menuuu').show();
+	});	
+	
+	$('.buttonc').click(function(){
+	  	  $('.menuuu').hide();
+	});	   
+
+});
+        
+</script>	
+
+	</body>
+</html>
